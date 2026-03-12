@@ -1,48 +1,36 @@
 .banner {
-  /* Image EN FOND */
-  background-image: 
-    /* Gradient sombre par-dessus */
-    linear-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%),
-    /* Ton image en dessous */
-    url(background.jpg);  /* ou URL Unsplash */
-  
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
+                    url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  
   padding: 120px 0;
-  color: white;
   text-align: center;
-  
-  /* Texte superposé CENTRE */
+  color: white;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 500px;
 }
 
 .banner h1 {
   font-size: 48px;
+  font-weight: 700;
   margin-bottom: 20px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 .banner h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
-  opacity: 0.95;
   margin-bottom: 40px;
   max-width: 600px;
+  opacity: 0.95;
+  text-shadow: 0 1px 5px rgba(0,0,0,0.5);
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .banner {
-    padding: 80px 20px;
-    min-height: 400px;
-  }
-  .banner h1 { font-size: 36px; }
-  .banner h2 { font-size: 20px; }
+.banner-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-
-
