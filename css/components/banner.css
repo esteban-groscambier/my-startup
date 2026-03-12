@@ -4,7 +4,7 @@
     /* Gradient sombre par-dessus */
     linear-gradient(rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%),
     /* Ton image en dessous */
-    url('images/background.jpg');  /* ou URL Unsplash */
+    url('https://unsplash.com/s/photos/city-night');  /* ou URL Unsplash */
   
   background-size: cover;
   background-position: center;
@@ -43,3 +43,4 @@
   .banner h1 { font-size: 36px; }
   .banner h2 { font-size: 20px; }
 }
+
