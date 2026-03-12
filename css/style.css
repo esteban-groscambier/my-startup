@@ -1,14 +1,13 @@
-/* Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
-/* Components */
 @import url("components/navbar.css");
 @import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/avatar.css");
 
-/* Global */
+
 * {
   margin: 0;
   padding: 0;
@@ -33,3 +32,4 @@ body {
   margin: 60px 0 40px;
   color: #1a202c;
 }
+
